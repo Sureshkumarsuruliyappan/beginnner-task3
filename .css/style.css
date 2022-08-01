@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+html,body{
+    min-height: 100vh;
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+header>div{
+    background-color:#999999 ;
+    padding: 20px;
+}
+ul li {
+    display: inline;
+    color: white;
+}
+.Site>h1{
+    padding-inline-start: 278px;
+}
+.first{
+    background-color: #000000;
+    padding: 11px;
+}
+.head{
+    padding-inline-start: 265px;
+
+}
+.page-titile{
+    float: left;
+}
+.page-titile>h1{
+    line-height: 1;
+}
+.heading{
+    margin: 10px auto;
+}
+.sidebar{
+    float: left;
+    margin: 40px;
+}
+.sidebar>p {
+    max-width: 300px;
+}
+.para{
+    clear: both;
+}
+.Responsive>h3{
+    margin: 18px auto;
+}
+.image{
+    max-width: 315px;
+    background-color: #cccccc;
+    padding: 107px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+nav.a{
+    background-color: white;
+    margin: 18px auto;
+}
+.a ul li {
+    display: block;
+    color: #000000;
+   list-style-type:disc;
+}
+nav.b{
+    background-color: white;
+    margin: 18px auto;
+
+}
+nav.c {
+    background-color: white;
+    color: black;
+    margin: 18px auto;
+
+}
+.c ul li {
+    color: #000;
+    display: block;
+}
+nav.d{
+    background: white;
+    word-spacing: 30px;
+    margin: 18px auto;
+
+}
+.d ul li{
+    color: #000;
+}
+th, td {
+    padding: 8px;
+    /* text-align: left; */
+    border-bottom: 1px solid #DDD;
+  }
+.table{
+        border-collapse: collapse;
+        width: 100%;
+        margin: 18px auto;
+    }
+.footer>p {
+    background-color: #000000;
+    padding: 7px;
+    color: #ffff;
+    padding-inline-start: 300px;
+    max-width: 100%;
+}
+p {
+    max-width: 544px;
+    line-height: 2;
+}
+nav ul li{
+    margin: 10px 22px;
+}
+nav ol li {
+    margin: 7px 30px;
+}
+article {
+    margin-left: 283px;
+        padding: 13px;
+}
+section {
+    margin-left: 301px;
+}
+button.btn{
+    padding: 5px;
+    background-color: #4169e1;
+    border: 1px solid;
+    border-radius: 3px;
+    width: 68px;
+    color: white;
+    margin-bottom: 7px;
+
+}
+.blockquotes {
+    margin: 18px auto;
+}
+hr{
+  width: 557px;
+}
+h3.hig.\33 {
+    font-size: 31px;
+    margin: 15px auto;
+}
+@media  screen and (min-width:200px)and (max-width: 500px){
+    header>div{
+        background-color:#999999 ;
+        padding: 20px;
+        width:1000%;
+    }
+    nav.first {
+        width:1000%;
+    }
+   
+}
+@media  screen and (min-width:200px)and (max-width: 600px){ 
+    article {
+        margin:auto;
+            padding: 13px;
+            max-width: fit-content;
+    }
+    section {
+         margin:auto;
+         max-width: fit-content;
+     }
+}
+@media  screen and (min-width:200px)and (max-width: 600px){
+    .Site>h1{
+        padding: 20px;
+    }
+    .head{
+       padding: 11px;    
+    }
+}
+@media  screen and (min-width:200px)and (max-width: 600px){
+    .footer>p{
+        max-width: 100%;
+    }
+}
